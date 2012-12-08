@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/* =1 reset --------------------------------------------------------------------------------------------------*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,hr{margin:0;padding:0;}
+img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+/* =2 fontsize reset (1em=10px)--------------------------------------------------------------------------------*/
+
+html, h1, h2, h3, h4, h5, h6 { font-size: 100%;}
+body { font-size: 10px;_font-size: 62.5%;
+    font-family: "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",
+    "Osaka","ＭＳ Ｐゴシック", "MS P Gothic",
+    Verdana,Arial, Helvetica, sans-serif;
+}
+*:first-child+html body {font-size: 100%;}
+table {font-size: 100%;}
+
+/* =3 anchor style------------------------------------------------------------------------------------------------*/
+
+a {outline:0;text-decoration:none;}
+a:link{color:#f26522;text-decoration:none;}
+a:visited{color:#f26522;text-decoration:none;}
+a:hover{color:#f22122;text-decoration:underline;}
+a:active{text-decoration:underline;}
+
+a.alpha:hover {filter:alpha(opacity=70); /*IE*/ -moz-opacity:0.70; /*FF*/ opacity:0.70;}
+
+/* =4 frequensy usage-----------------------------------------------------------------------------------------*/
+/*image substitute*/
+.sub {display:block;height:0;overflow:hidden;}
+/*position style*/
+.center {text-align:center;}
+.clear {clear:both;}
+.fleft {float:left;}
+.fright {float:right;}
+.rel {position:relative;}
+.abs {position:absolute;}
+/*font style*/
+.red {color:#F66;}
+.blue {color:#009de3;}
+.orange {color:#ff9000;}
+.bold {font-weight:bold;}
+p {line-height:1.8;}
+p.desc {margin-bottom:1em;}
+p.goTop {clear:both;text-align:right;padding-top:10px;margin:0px auto;}
+table.tab_frame {border-collapse:collapse;}
+table.tab_frame th,table.tab_frame td{padding:8px 10px;border-width:2px;border-style:solid;}
+        
+/* =5 css hack------------------------------------------------------------------------------------------------*/
+
+.clearfix:after {visibility:hidden;display:block;font-size: 0;content: " ";clear: both;height: 0;}  
+* html .clearfix { zoom: 1; } /* IE6 */  
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */  
+
+/* =6 frame----------------------------------------------------------------------------------------------------*/
+
+html {}
+body {font-size:0.9em;background-color:#221815;}
+*:first-child+html body {font-size:0.9em;}
+
+#wrapper {position:relative;}
+
+/* =7 #header common------------------------------------------------------------------*/
+
+/* =8 #wrapper common-----------------------------------------------------------------*/
+
+/* =9 #footer common------------------------------------------------------------------*/
+
